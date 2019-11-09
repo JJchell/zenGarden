@@ -1,7 +1,7 @@
 .container {
 	display: grid;
 	width: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	background-image: url("pattern2.jpg");
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -35,16 +35,17 @@
 	grid-area: 1 / 2 / span 1 / span 2;
 	width: 100%;
 	height: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 5%;
 }
+
 
 .box2 {
 	grid-area: 1 / 4 / span 1 / span 2;
 	width: 45%;
 	height: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 5%;
 }
@@ -53,7 +54,7 @@
 	grid-area: 2 / 2 / span 2 / span 1;
 	width: 100%;
 	height: 95%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 25%;
 }
@@ -62,7 +63,7 @@
 	grid-area: 2 / 3 / span 1 / span 2;
 	width: 118%;
 	height: 88%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 12%;
 	margin-left: 27%;
@@ -72,7 +73,7 @@
 	grid-area: 3 / 3 / span 1 / span 2;
 	width: 118%;
 	height: 91%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 12%;
 	margin-left: 27%;
@@ -82,63 +83,7 @@
 	grid-area: 4 / 2 / span 1 / span 2;
 	width: 100%;
 	height: 100%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 30%;
-}
-
-.box1 {
-	grid-area: 1 / 2 / span 1 / span 2;
-	width: 100%;
-	height: 100%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 5%;
-}
-
-.box2 {
-	grid-area: 1 / 4 / span 1 / span 2;
-	width: 45%;
-	height: 100%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 5%;
-}
-
-.box3 {
-	grid-area: 2 / 2 / span 2 / span 1;
-	width: 100%;
-	height: 95%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 25%;
-}
-
-.box4 {
-	grid-area: 2 / 3 / span 1 / span 2;
-	width: 118%;
-	height: 88%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 12%;
-	margin-left: 27%;
-}
-
-.box5 {
-	grid-area: 3 / 3 / span 1 / span 2;
-	width: 118%;
-	height: 91%;
-	border: 1px solid;
-	justify-self: center;
-	margin-top: 12%;
-	margin-left: 27%;
-}
-
-.box6 {
-	grid-area: 4 / 2 / span 1 / span 2;
-	width: 100%;
-	height: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 30%;
 }
@@ -147,7 +92,7 @@
 	grid-area: 5 / 4 / span 1 / span 1;
 	width: 100%;
 	height: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	align-self: center;
 	/* margin-top: 10%; */
@@ -159,7 +104,7 @@
 	width: 80%;
 	height: 90%;
 	border-radius: 20px;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	align-self: center;
 	/* margin-top: 10%; */
@@ -170,17 +115,24 @@
 	grid-area: 6 / 3 / span 4 / span 2;
 	width: 180%;
 	height: 100%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 	margin-top: 10%;
 	margin-right: 22%;
 }
 
+.shelf1 {
+	grid-area: 2 / 4 / span 1 / span 2;
+	width: 100%;
+	height: 25%;
+	border: 3px solid;
+	justify-self: center;
+}
 .shelf2 {
 	grid-area: 3 / 4 / span 1 / span 2;
 	width: 100%;
 	height: 25%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 }
 
@@ -188,7 +140,7 @@
 	grid-area: 4 / 4 / span 1 / span 2;
 	width: 100%;
 	height: 25%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 }
 
@@ -196,7 +148,7 @@
 	grid-area: 5 / 4 / span 1 / span 2;
 	width: 100%;
 	height: 25%;
-	border: 1px solid;
+	border: 3px solid;
 	justify-self: center;
 }
 
@@ -207,7 +159,6 @@
 	}
 
 	.header {
-
 		background-color: #2D1975;
 		grid-area: 1 / 1 / span 1 / span 5;
 		height: 250px;
@@ -218,7 +169,7 @@
 	.logo {
 		width: 100px;
 		height: 100px;
-		border: 1px solid purple;
+		border: 3px solid purple;
 		justify-self: center;
 		align-self: center;
 	}
@@ -226,7 +177,7 @@
 	.title {
 		width: 600px;
 		height: 100px;
-		border: 1px solid peru;
+		border: 3px solid peru;
 		justify-self: center;
 		align-self: center;
 	}
@@ -263,7 +214,7 @@
 		grid-area: 2 / 2 / span 2 / span 1;
 		width: 100%;
 		height: 95%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 		margin-top: 25%;
 		margin-right: 50%;
@@ -273,7 +224,7 @@
 		grid-area: 2 / 3 / span 1 / span 2;
 		width: 118%;
 		height: 88%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 		margin-top: 12%;
 		margin-left: 10%;
@@ -283,7 +234,7 @@
 		grid-area: 3 / 3 / span 1 / span 2;
 		width: 118%;
 		height: 91%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 		margin-top: 10%;
 		margin-left: 10%;
@@ -293,7 +244,7 @@
 		grid-area: 4 / 2 / span 1 / span 2;
 		width: 70%;
 		height: 100%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 		margin-top: 30%;
 	}
@@ -325,7 +276,7 @@
 		grid-area: 5 / 3 / span 4 / span 2;
 		width: 180%;
 		height: 100%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 		margin-top: 31%;
 		margin-right: 22%;
@@ -335,7 +286,7 @@
 		grid-area: 2 / 4 / span 1 / span 2;
 		width: 100%;
 		height: 10%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 	}
 
@@ -343,7 +294,7 @@
 		grid-area: 3 / 4 / span 1 / span 2;
 		width: 100%;
 		height: 10%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 	}
 
@@ -351,7 +302,7 @@
 		grid-area: 4 / 4 / span 1 / span 2;
 		width: 100%;
 		height: 10%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 	}
 
@@ -359,7 +310,7 @@
 		grid-area: 5 / 4 / span 1 / span 2;
 		width: 100%;
 		height: 10%;
-		border: 1px solid;
+		border: 3px solid;
 		justify-self: center;
 	}
 }
