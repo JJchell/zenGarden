@@ -3,7 +3,7 @@
 	width: 100%;
 	border: 1px solid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .box1 {
@@ -121,11 +121,46 @@
 
 @media screen and (max-width: 60em) {
 	.container {
-		background-color: red;
+		background-color: cyan;
+		grid-auto-rows: minmax(30rem, auto);
+	}
+
+	.header {
+		background-color: #2D1975;
+		grid-area: 1 / 1 / span 1 / span 5;
+		height: 250px;
+		display: grid;
+		grid-template-columns: 25% 65%;
+
+	}
+	.logo {
+		width: 100px;
+		height: 100px;
+		border: 1px solid purple;
+		justify-self: center;
+		align-self: center;
+	}
+
+	.title {
+		width: 600px;
+		height: 100px;
+		border: 1px solid peru;
+		justify-self: center;
+		align-self: center;
+	}
+	
+	.p1 {
+		grid-area: 2 / 1 / span 3 / span 5;
+		width: 640px;
+		height: 500px;
+		border: 5px solid red;
+		justify-self: center;
+		align-self: auto;
+		margin-top: 20px;
 	}
 
 	.TVbox {
-		grid-area: 4 / 2 / span 3 / span 2;
+		grid-area: 4 / 1 / span 3 / span 5;
 		width: 640px;
 		height: 350px;
 		border: 1px solid;
@@ -134,32 +169,15 @@
 	}
 
 	.bookCase {
-		grid-area: 7 / 3 / span 4 / span 3;
+		grid-area: 7 / 1 / span 4 / span 5;
 		width: 500px;
 		height: 700px;
 		border: 1px solid;
 		justify-self: center;
-	}
-
-	.self1 {
-		grid-area: 7 / 3 / span 4 / span 3;
-		width: 500px;
-		height: 700px;
-		border: 1px solid;
-		justify-self: center;
-	}
-
-	.self2 {
-	}
-
-	.self3 {
-	}
-
-	.self4 {
 	}
 
 	.screen {
-		grid-area: 4 / 2 / span 3 / span 2;
+		grid-area: 4 / 1 / span 3 / span 5;
 		width: 350px;
 		height: 300px;
 		border-radius: 20px;
